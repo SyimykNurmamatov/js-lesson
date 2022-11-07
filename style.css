@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.badge {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+}
+
